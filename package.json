@@ -1,0 +1,19 @@
+{
+  "name": "challenge01",
+  "version": "1.0.0",
+  "description": "## Contexto Você está desenvolvendo um sistema para um comparador de preços que precisa identificar quando diferentes supermercados vendem o mesmo produto, mesmo quando os nomes têm pequenas variações.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/ts_answer.ts",
+    "run:ts": "node src/ts_answer.js",
+    "run:js": "node src/js_answer.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
